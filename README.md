@@ -38,12 +38,12 @@ Horsepower is a metric that can be used to compare the MechaCar prototype vehicl
   * Ha: There is no collreation between hp and mpg.</br>
   
  <img src="https://github.com/ramyasnl/MechaCar_Statistical_Analysis/blob/main/images/mtcarsD4.png"  /></br> 
-The model resulted in a multiple r-square value of 0.6024. Given the multiple r-square value, I can see that there is a moderate/strong correlation between hp and mpg.</br>
+The model resulted in a multiple r-square value of 0.7528. Given the multiple r-square value, I can see that there is a moderate/strong correlation between hp and mpg.</br>
 
 I used a one-sample t-test as my second statistical test. I tested on a sample size of 20 to see if there is statistical similarities between the horsepower sample mean and horsepower population mean. </br>I did this to see if hp would be worthy data collection point for further analysis. It tested the following hypotheses:
   * H0 : There is no statistical difference between the observed sample mean and its presumed population mean.</br>
   * Ha : There is a statistical difference between the observed sample mean and its presumed population mean.</br>
-The t-test resulted in a p-value of 0.4084, which is above the significance level of 0.05%. Therefore, I do not have sufficient evidence to reject the null hypothesis,
+The t-test resulted in a p-value of 0.7509, which is above the significance level of 0.05%. Therefore, I do not have sufficient evidence to reject the null hypothesis,
 and thereby state that the two means are statistically similar.</br>
 
 Based on my single linear regression model and one-sample t-test, </br>
