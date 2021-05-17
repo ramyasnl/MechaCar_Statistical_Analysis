@@ -38,7 +38,7 @@ t.test(subset(Suspension_table, Manufacturing_Lot == "Lot3")$PSI, mu = 1500)
 lm(mpg ~ wt, data = mtcars)
 # Create summary linear model
 summary(lm(mpg ~ wt, data = mtcars))
-# Create summary statistics for horsepower (hp)
+# Create summary statistics for weight of car(wt)
 mtcars %>%
   summarize(wt_mean= mean(wt), 
             wt_median = median(wt), 
